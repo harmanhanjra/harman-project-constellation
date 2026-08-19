@@ -1,0 +1,1 @@
+import type { Metadata } from "next";import "./globals.css";export const metadata: Metadata={title:"Project Constellation — Harman Hanjra",description:"Explore how Harman’s projects connect across agents, quant, security, and automation."};export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body>{children}</body></html>}
